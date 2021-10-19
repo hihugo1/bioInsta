@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+}
+
+.profile{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    top: 50px;
+    align-items: center;
+
+    h1, p{
+        text-align: center;
+        color: white;
+    }
+
+}
+
+
+
+.perfil img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.sociais{
+    display: flex;
+    gap: 10px;
+}
+
+.sociais img{
+    margin: 10px 0;
+    width: 20px;
+}
+
+.btn{
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    a{
+        color: white;
+        width: 300px;
+        text-align: center;
+        text-decoration: none;
+        background: black;
+        border: 1px solid #fff;
+        padding: 12px 36px;
+        border-radius: 30px;
+        margin: 15px 0 0 0;
+    }
+    
+}
